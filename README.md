@@ -85,7 +85,7 @@ Official PyTroch implementation of HPRNet.
 ## Evaluation and Training
 
 
-- You could find all the evaluation and training scripts in the [experiments](../experiments) folder.
+- You could find all the evaluation and training scripts in the [experiments](./experiments) folder.
 - For evaluation, please download the [pretrained models](https://drive.google.com/drive/folders/1yKxQVRxjicvDDM_p1-uKdAewRaSIaY4P?usp=sharing) you want to evaluate and put them in `HPRNet_ROOT/models/`.
 - In the case that you don't have 4 GPUs, you can follow the [linear learning rate rule](https://arxiv.org/abs/1706.02677) to adjust the learning rate.
 - If the training is terminated before finishing, you can use the same command with `--resume` to resume training. 
@@ -97,7 +97,7 @@ The numerical calculations reported in this paper were fully performed at TUBITA
  
 ## License
 
-HPRNet is released under the MIT License (refer to the [LICENSE](readme/LICENSE) file for details). 
+HPRNet is released under the MIT License (refer to the [LICENSE](LICENSE) file for details). 
 
 ## Citation
 
