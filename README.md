@@ -7,10 +7,10 @@ Official PyTroch implementation of HPRNet.
 
   
 ## Highlights
-- Hough voting idea is applied through a log-polar vote field to utilize short and long-range evidence in a deep
-learning model for generic object detection.
-- Our best single model achieves *46.4* AP on COCO test-dev.
-- HPRNet is effective for small objects (+2.5 AP points over the baseline).
+- HPRNet is a bottom-up, one-stage and hierarchical keypoint regression method for whole-body pose estimation.
+- HPRNet has the best performance among bottom-up methods for all the whole-body parts. 
+- HPRNet achieves SOTA performance for the face (*76.0* AP) and hand (*51.2* AP) keypoint estimation.
+- Unlike two-stage methods, HPRNet predicts whole-body pose in a constant time independent of the number of people in an image.
 
 
 ## COCO-WholeBody Keypoint Estimation Results
