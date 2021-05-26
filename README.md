@@ -17,8 +17,8 @@ Official PyTroch implementation of HPRNet.
 
 | Model                    |   Body AP        | Foot AP        | Face AP  |  Hand AP     |  Whole-body AP       | Download |
 |--------------------------|--------------------|-----------|-----------|-----------|-----------|-----------|
-|[HPRNet (DLA)](../experiments/wholebody_hprnet_dla.sh)   | 55.2 /  57.1 | 49.1 / 50.7 | 74.6 / 75.4 | 47.0 / 48.4 |  31.5 / 32.7|[model](https://drive.google.com/file/d/1LQShniDCkTNJDfvyfbU8QXMy_Uqz-_C2/view?usp=sharing) |
-|[HPRNet (Hourglass)](../experiments/wholebody_hprnet_hourglass.sh) |59.4 / **61.1** | 53.0 / **53.9** | 75.4 / **76.0** | 50.4 / **51.2** | 34.8 / **34.9** | [model](https://drive.google.com/file/d/1qcE7ac_I_M4qvXV2TH2KO8314K3Q7zIV/view?usp=sharing) |
+|[HPRNet (DLA)](./experiments/wholebody_hprnet_dla.sh)   | 55.2 /  57.1 | 49.1 / 50.7 | 74.6 / 75.4 | 47.0 / 48.4 |  31.5 / 32.7|[model](https://drive.google.com/file/d/1LQShniDCkTNJDfvyfbU8QXMy_Uqz-_C2/view?usp=sharing) |
+|[HPRNet (Hourglass)](./experiments/wholebody_hprnet_hourglass.sh) |59.4 / **61.1** | 53.0 / **53.9** | 75.4 / **76.0** | 50.4 / **51.2** | 34.8 / **34.9** | [model](https://drive.google.com/file/d/1qcE7ac_I_M4qvXV2TH2KO8314K3Q7zIV/view?usp=sharing) |
 
 - Results are presented without and with test time flip augmentation respectively.
 - All models are trained on COCO-WholeBody `train2017` and evaluated on `val2017`.
