@@ -3,12 +3,12 @@ Official PyTroch implementation of HPRNet.
 
 > [**HPRNet: Hierarchical Point Regression for Whole-Body Human Pose Estimation**](https://arxiv.org/abs/2104.06773),            
 > [Nermin Samet](https://nerminsamet.github.io/), [Emre Akbas](http://user.ceng.metu.edu.tr/~emre/),        
-> *Under review at IMAVIS. ([arXiv pre-print](https://arxiv.org/abs/2104.06773))*          
+> *Under review. ([arXiv pre-print](https://arxiv.org/abs/2104.06773))*          
 
   
 ## Highlights
 - HPRNet is a bottom-up, one-stage and hierarchical keypoint regression method for whole-body pose estimation.
-- HPRNet has the best performance among bottom-up methods for all the whole-body parts. 
+- HPRNet has the best performance among bottom-up methods for all of the whole-body parts. 
 - HPRNet achieves SOTA performance for the face (*76.0* AP) and hand (*51.2* AP) keypoint estimation.
 - Unlike two-stage methods, HPRNet predicts whole-body pose in a constant time independent of the number of people in an image.
 
