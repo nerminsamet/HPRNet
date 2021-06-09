@@ -3,7 +3,7 @@ Official PyTroch implementation of HPRNet.
 
 > [**HPRNet: Hierarchical Point Regression for Whole-Body Human Pose Estimation**](http://arxiv.org/abs/2106.04269),            
 > [Nermin Samet](https://nerminsamet.github.io/), [Emre Akbas](http://user.ceng.metu.edu.tr/~emre/),        
-> *Under review at IMAVIS. ([arXiv pre-print](http://arxiv.org/abs/2106.04269))*          
+> *Under review. ([arXiv pre-print](http://arxiv.org/abs/2106.04269))*          
 
   
 ## Highlights
