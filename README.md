@@ -59,7 +59,7 @@ Official PyTroch implementation of HPRNet.
     ~~~
 
 
-5. Compile DCNv2 (Deformable Convolutional Networks):
+5. First clone the [DCNv2 repository](https://github.com/CharlesShang/DCNv2) into $HPRNet_ROOT/src/lib/models/networks. Then, compile DCNv2 (Deformable Convolutional Networks):
 
     ~~~
     cd $HPRNet_ROOT/src/lib/models/networks/DCNv2
